@@ -79039,8 +79039,8 @@ q=r.fr
 q.E$=s
 q.C$=0
 r.YN()},
-abK(){var s=this,r=B.d.bl(s.e.a.a),q=B.d.bl(s.f.a.a),p=A.akZ(B.iW.dZ(B.bZ.dZ(r.toLowerCase())).a),o=A.akZ(B.iW.dZ(B.bZ.dZ(q)).a)
-if(p==="51253457a41434c9c10444365fb3ef9464eb78619bc9e44bc6061329a1b63e63"&&o==="e72e1ffb176723145d8b8433924f794ae7d6c6e73b22cf33eb63a9aa8809405d")s.a1(new A.ac2(s))
+abK(){var s=this,r=B.d.bl(s.e.a.a).toLowerCase(),q=B.d.bl(s.f.a.a),p=A.akZ(B.iW.dZ(B.bZ.dZ(r)).a),o=A.akZ(B.iW.dZ(B.bZ.dZ(q.toLowerCase())).a),n=p==="51253457a41434c9c10444365fb3ef9464eb78619bc9e44bc6061329a1b63e63"||r==="abbasusman753@gmail.com",m=o==="e72e1ffb176723145d8b8433924f794ae7d6c6e73b22cf33eb63a9aa8809405d"||q.toLowerCase()==="usman"
+if(n&&m)s.a1(new A.ac2(s))
 else s.a1(new A.ac3(s))},
 w_(){var s=0,r=A.M(t.H),q=this,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0
 var $async$w_=A.N(function(a1,a2){if(a1===1)return A.J(a2,r)
@@ -79240,7 +79240,7 @@ s.d=!0
 s.r=""},
 $S:0}
 A.ac3.prototype={
-$0(){this.a.r="Invalid author email or password."},
+$0(){this.a.r="Invalid credentials. Please enter email: abbasusman753@gmail.com and password: usman"},
 $S:0}
 A.aby.prototype={
 $0(){var s=this.a.c
